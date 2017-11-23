@@ -1136,6 +1136,7 @@ application).
    Lists may be constructed in several ways:
 
    * Using a pair of square brackets to denote the empty list: ``[]``
+   * Using square brackets, separating items with commas: ``[a]`` or ``[a, b, c]``
    * Using a list comprehension: ``[x for x in iterable]``
    * Using the type constructor: ``list()`` or ``list(iterable)``
 
@@ -1215,7 +1216,7 @@ homogeneous data is needed (such as allowing storage in a :class:`set` or
 
    * Using a pair of parentheses to denote the empty tuple: ``()``
    * Using a trailing comma for a singleton tuple: ``a,`` or ``(a,)``
-   * Separating items with commas: ``a, b, c`` or ``(a, b, c)``
+   * Separating items with commas: ``a, b, c`` or ``(a, b, c)`` or ``[a], [b, c]``
    * Using the :func:`tuple` built-in: ``tuple()`` or ``tuple(iterable)``
 
    The constructor builds a tuple whose items are the same and in the same
